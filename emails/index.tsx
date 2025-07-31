@@ -21,7 +21,7 @@ export const LifomationWaitlistEmail = ({ userFirstname }: EmailProps) => (
      <Body style={main}>
        <Container style={container}>
          <Img
-           src={`https://lifomation.com/waitlist-logo.png`}
+           src="/logo.png"
            width="220"
            height="100"
            alt="Lifomation Logo"
