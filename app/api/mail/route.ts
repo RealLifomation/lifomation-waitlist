@@ -41,7 +41,7 @@ export async function POST(request: NextRequest, response: NextResponse) {
   const { data, error } = await resend.emails.send({
     from: "Lifomation <noreply@waitlist.lifomation.tech>",
     to: [email],
-    subject: "Thank you for wailisting tfor Lifomation!",
+    subject: "Thank you for waitlisting for Lifomation!",
     // reply_to: "dhruv10203@gmail.com",
     html: render(WelcomeTemplate({ userFirstname: firstname })),
   });
